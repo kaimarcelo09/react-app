@@ -75,6 +75,6 @@ app.put("/contacts/update", (req, res) => {
 
 
 //3001 = port 
-app.listen(3001, () => {
-    console.log(`server started on port ${PORT}`)
-})
+app.listen(PORT, () => {
+    console.log(`server started on port ${PORT}`);
+  });
